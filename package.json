@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  "dev": "ts-node-dev src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js"
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
-   "type": "commonjs",
+  "type": "commonjs",
   "author": "",
   "license": "ISC",
   "description": "",
@@ -20,7 +20,8 @@
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
     "pg": "^8.18.0",
-    "prisma": "^7.3.0"
+    "prisma": "^7.3.0",
+    "serverless-http": "^4.0.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
